@@ -1,0 +1,79 @@
+wilder@wilder-ThinkPad-T440p:~$ cd quetes
+wilder@wilder-ThinkPad-T440p:~/quetes$ cd git
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git remote -v
+origin	https://github.com/aminebech/wildprojects.git (fetch)
+origin	https://github.com/aminebech/wildprojects.git (push)
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git branch
+  dev
+  master
+* wcs
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git checkout master
+Basculement sur la branche 'master'
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git branch
+  dev
+* master
+  wcs
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git push -u origin master
+Username for 'https://github.com': aminebech
+Password for 'https://aminebech@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/aminebech/wildprojects.git/'
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git push -u origin master
+Username for 'https://github.com': aminebech
+Password for 'https://aminebech@github.com': 
+Décompte des objets: 3, fait.
+Écriture des objets: 100% (3/3), 208 bytes | 208.00 KiB/s, fait.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/aminebech/wildprojects.git
+ * [new branch]      master -> master
+La branche 'master' est paramétrée pour suivre la branche distante 'master' depuis 'origin'.
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git chekckout wcs
+git : 'chekckout' n'est pas une commande git. Voir 'git --help'.
+
+La commande la plus ressemblante est
+	checkout
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git checkout wcs
+Basculement sur la branche 'wcs'
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git push -u origin wcs
+Username for 'https://github.com': aminebech
+Password for 'https://aminebech@github.com': 
+Décompte des objets: 2, fait.
+Delta compression using up to 4 threads.
+Compression des objets: 100% (2/2), fait.
+Écriture des objets: 100% (2/2), 273 bytes | 273.00 KiB/s, fait.
+Total 2 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'wcs' on GitHub by visiting:
+remote:      https://github.com/aminebech/wildprojects/pull/new/wcs
+remote: 
+To https://github.com/aminebech/wildprojects.git
+ * [new branch]      wcs -> wcs
+La branche 'wcs' est paramétrée pour suivre la branche distante 'wcs' depuis 'origin'.
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git pull origin wcs
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Dépaquetage des objets: 100% (3/3), fait.
+Depuis https://github.com/aminebech/wildprojects
+ * branch            wcs        -> FETCH_HEAD
+   d32d88c..cb973e9  wcs        -> origin/wcs
+Mise à jour d32d88c..cb973e9
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ git status
+Sur la branche wcs
+Votre branche est à jour avec 'origin/wcs'.
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+
+	CSS Responsive/
+	index.php
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ pwd
+/home/wilder/quetes/git
+wilder@wilder-ThinkPad-T440p:~/quetes/git$ ls
+'CSS Responsive'   index.php   README.md   wild.php
