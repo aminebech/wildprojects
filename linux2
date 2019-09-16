@@ -1,23 +1,26 @@
 wilder@wilder-ThinkPad-T440p:~/quetes/shell$ tree
 .
-├── planets
-│   ├── fictional
-│   │   ├── arrakis.jpeg
-│   │   ├── coruscant.jpeg
-│   │   └── cybertron.jpeg
-│   ├── inhabited
-│   │   └── earth.jpeg
-│   └── real
-│       ├── gas-giants
-│       │   ├── jupiter.jpeg
-│       │   ├── neptune.jpeg
-│       │   ├── saturn.jpeg
-│       │   └── uranus.jpeg
-│       └── telluric
-│           ├── earth.jpeg
-│           ├── mars.jpeg
-│           ├── mercury.jpeg
-│           └── venus.jpeg
+├── fictional
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   └── cybertron.jpeg
+├── inhabited
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   ├── cybertron.jpeg
+│   └── earth.jpeg
+└── real
+    ├── gas-giants
+    │   ├── jupiter.jpeg
+    │   ├── neptune.jpeg
+    │   ├── saturn.jpeg
+    │   └── uranus.jpeg
+    └── telluric
+        ├── earth.jpeg
+        ├── mars.jpeg
+        ├── mercury.jpeg
+        └── venus.jpeg
+
 └── planets.zip
 
 6 directories, 13 files
