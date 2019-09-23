@@ -1,0 +1,83 @@
+ul 
+{
+    background-color: #464646;
+}
+  
+li 
+{
+    font-weight: bold;
+    padding: 0px;
+    text-align: center;
+    border: 0px solid #5D6063;
+    width: 200px;
+    color: #DADBDB;
+  }
+
+.selected 
+{
+    color: #464646;
+    background-color: #DADBDB;
+}
+  
+ul 
+{
+    display: flex;
+    list-style: none;
+}      
+      
+
+    
+.carousel 
+{
+    background-color: #DADBDB;
+    height: 250px;
+}
+    
+h2 
+{
+    text-align: center;
+}
+
+
+.flex 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+article
+{
+    background-color: #DADBDB;
+    height: 250px;
+    padding: 10px;
+    margin: auto;
+    width: 200px;
+}
+
+
+form :nth-child(1)
+{
+    text-align: left;
+}
+
+form div:nth-child(2) 
+{
+    margin: 20px;
+}
+
+form div:nth-child(3)
+{
+    margin: 20px;
+}
+
+form div:nth-child(4)
+{
+    margin: 20px;
+}
+
+form div:nth-child(5)
+{
+    margin: 20px;
+}
+
