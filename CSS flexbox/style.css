@@ -1,0 +1,157 @@
+ul {
+    background-color: #464646;
+    display: flex;
+}
+
+li {
+    font-weight: bold;
+    padding: 10px;
+    border: 0px solid #5D6063;
+    width: 200%;
+    color: #DADBDB;
+    list-style: none;
+    text-align: center;
+}
+
+.carousel {
+    background-color: #DADBDB;
+    height: 15rem;
+    margin-top: -20px;
+}
+
+
+
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+article {
+    background-color: #DADBDB;
+    height: 30rem;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #464646;
+    padding: 40px;
+    width: 100%;
+    list-style: none;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    margin-right: auto;
+    padding: 0.5rem;
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.send {
+    background-color: #DADBDB;
+    width:15%;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #464646;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 25%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px 5px 0;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.infos {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.text {
+    float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+@media screen and (max-width:961px){
+    section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    article {
+        background-color: #DADBDB;
+        height: 10rem;
+        padding: 10px;
+        margin-bottom: 30px;
+        width: 80%;
+
+    }
+
+    footer {
+        display: block;
+    }
+
+    a {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    .infos, .text {
+        width: 100%;
+    }
+
+    .send {
+        margin-right: 0%;
+    }
+}

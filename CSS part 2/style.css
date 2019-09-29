@@ -1,83 +1,72 @@
-ul 
-{
+ul {
     background-color: #464646;
 }
-  
-li 
-{
+
+li {
     font-weight: bold;
-    padding: 0px;
-    text-align: center;
+    padding: 10px;
     border: 0px solid #5D6063;
     width: 200px;
     color: #DADBDB;
-  }
-
-.selected 
-{
-    color: #464646;
-    background-color: #DADBDB;
-}
-  
-ul 
-{
-    display: flex;
     list-style: none;
-}      
-      
-
-    
-.carousel 
-{
-    background-color: #DADBDB;
-    height: 250px;
+    text-align: center;
+    display: inline-block;
 }
-    
-h2 
-{
+
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+form {
     text-align: center;
 }
 
-
-.flex 
-{
-    display: flex;
-    justify-content: center;
+input {
+    margin-bottom: 20px;
 }
 
-
-article
-{
-    background-color: #DADBDB;
-    height: 250px;
-    padding: 10px;
-    margin: auto;
-    width: 200px;
+footer {
+    background-color: #464646;
+    font-weight: bold;
+    padding: 40px;
+    width: 100%;
+    list-style: none;
+    margin-top: 100px;
 }
 
-
-form :nth-child(1)
-{
-    text-align: left;
+a {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
 }
 
-form div:nth-child(2) 
-{
-    margin: 20px;
-}
+@media screen and (min-width:961px){
+    section {
+        text-align: center;
+    }
 
-form div:nth-child(3)
-{
-    margin: 20px;
-}
+    section:nth-child(4){
+        display: flex;
+    }
 
-form div:nth-child(4)
-{
-    margin: 20px;
-}
+    article {
+        background-color: #DADBDB;
+        height: 20rem;
+        padding: 10px;
+        margin-bottom: 30px;
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-form div:nth-child(5)
-{
-    margin: 20px;
-}
+    .carousel {
+        background-color: #DADBDB;
+        height: 250px;
+        margin-top: -20px;
+    }
 
+
+}
