@@ -2,6 +2,7 @@ ul {
     background-color: #464646;
 }
 
+<<<<<<< HEAD
 .flex {
     display: flex;
     flex-direction: column;
@@ -17,6 +18,8 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+=======
+>>>>>>> f794d7275b5533023a8b1313bbe6b80d1ccfe35c
 li {
     font-weight: bold;
     padding: 10px;
@@ -67,6 +70,7 @@ a {
         display: flex;
     }
 
+<<<<<<< HEAD
     .flex {
         display: flex;
         flex-direction: column;
@@ -76,6 +80,11 @@ a {
         align-content: center;
         background-color: #DADBDB;
         height: 5rem;
+=======
+    article {
+        background-color: #DADBDB;
+        height: 20rem;
+>>>>>>> f794d7275b5533023a8b1313bbe6b80d1ccfe35c
         padding: 10px;
         margin-bottom: 30px;
         width: 15rem;
